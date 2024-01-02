@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./components/App";
 
 import { createStore } from "redux";
-import { Provider, createStoreHook } from "react-redux";
+import { Provider } from "react-redux";
 
 import rootReducer from "./reducers";
 import { addCharacterById } from "./actions";
